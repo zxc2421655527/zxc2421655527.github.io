@@ -1,0 +1,352 @@
+/* ========================================================
+	App — Popup Forms
+    URL: http://www.bootstrapmb.com
+===========================================================
+
+    — APP MODAL
+    — BUTTON
+	— INPUT
+	— CHECKBOX 
+    — RADIO
+
+======================================================== */
+
+
+/* ============ APP MODAL =========== */
+
+.app-body {
+    position: relative;
+    padding: 0px;
+}
+
+.app-content {
+    padding: 40px 40px 40px 40px;
+    width: 100%;
+    background-color: #fff;
+    color: #71818c border-radius: 4px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-shadow: 0 16px 24px 2px rgba(0, 0, 0, .14), 0 6px 30px 5px rgba(0, 0, 0, .12), 0 8px 10px -5px rgba(0, 0, 0, .2);
+}
+
+.app-privacy {
+    margin: 15px 0;
+    color: #71818c;
+    position: relative;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.app-privacy a {
+    color: #4843d2
+}
+
+.app-register {
+    margin: 20px 0 0 0;
+    text-align: center;
+    color: #71818c;
+    position: relative;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.app-register a {
+    color: #4843d2;
+}
+
+.app-remember {
+    margin-top: 15px;
+    color: #71818c;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+}
+
+.app-header {
+    padding: 10px;
+    border: none;
+    display: block;
+    text-align: center;
+}
+
+.app-header p {
+    color: #71818c;
+    position: relative;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+}
+
+.app-header span {
+    color: #f92c8b;
+    font-size: 32px;
+    outline: none;
+}
+
+.app-header span:hover {
+    color: #4843d2;
+    font-size: 32px;
+    outline: none;
+}
+
+.app-dialog {
+    max-width: 480px;
+    margin: 120px auto;
+}
+.app-header .close {
+    margin-top: -35px;
+    font-weight: 200;
+    font-size: 27px;
+    padding: 1rem 0;
+    outline: none;
+}
+
+.app-price {
+    font-size: 48px;
+    color: #2c93f9;
+    margin-top: 20px;
+    letter-spacing: -2px;
+    font-weight: 600;
+}
+
+.app-guarantee-price {
+    color: #26c15f;
+}
+
+.app-floating {
+    -webkit-transform: translateY(-18px);
+    transform: translateY(-18px);
+    position: absolute;} label {
+    color: #71818c;
+    font-size: 16px;
+    font-weight: 300;
+    transition: all .3s cubic-bezier(.64, .09, .08, 1);
+    margin: 30px 0 30px;
+    display: inline-block;
+    letter-spacing: 0.5px;
+}
+
+.app-floating-active {
+    -webkit-transform: translateY(-38px);
+    transform: translateY(-38px);
+    color: #71818c;
+    font-size: 14px;
+    pointer-events: none;
+    -webkit-transition: all, .4s;
+    transition: all, .4s;
+    text-transform: uppercase;
+    font-weight: 400;
+    opacity: .6;
+    top: 5px;
+}
+
+
+/* ============ BUTTON =========== */
+
+.app-button {
+    display: block;
+    text-align: center;
+    box-shadow: 0px 5px 20px #d6dee4;
+    -moz-box-shadow: 0px 5px 20px #d6dee4;
+    -webkit-box-shadow: 0px 5px 20px #d6dee4;
+    margin-top: 20px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    padding: 18px;
+    background-color: #f92c8b;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 60px;
+    -moz-border-radius: 60px;
+    -webkit-border-radius: 60px;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+}
+
+.app-button:hover {
+    background-color: #4843d2;
+    box-shadow: 0px 10px 30px #aab9c3;
+    -moz-box-shadow: 0px 10px 30px #aab9c3;
+    -webkit-box-shadow: 0px 10px 30px #aab9c3;
+    text-decoration: none;
+}
+
+
+/* ============ INPUT =========== */
+
+input[type=email],
+input[type=text],
+input[type=datepicker],
+input[type=password],
+input[type=number] {
+    position: relative;
+    z-index: 2;
+    margin-bottom: 18px;
+    width: 100%;
+    display: block;
+    border: none;
+    padding: 18px 0 12px 0;
+    border-bottom: 1px solid #eff1f3;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 98%, #eff1f3 98%);
+}
+
+select {
+    width: 100%;
+    background-color: transparent;
+    margin: 0 0 10px 0;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+textarea {
+    position: relative;
+    z-index: 2;
+    margin-bottom: 18px;
+    width: 100%;
+    display: block;
+    border: none;
+    padding: 0px 0 12px 0;
+    border-bottom: solid 1px #eff1f3;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 98%, #eff1f3 98%);
+}
+
+input[type=email].input-active,
+input[type=email]:focus,
+input[type=text].input-active,
+input[type=text]:focus,
+input[type=datepicker].input-active,
+input[type=datepicker]:focus,
+textarea.input-active,
+textarea:focus,
+input[type=password].input-active,
+input[type=password]:focus,
+input[type=number].input-active,
+input[type=number]:focus {
+    background-position: 0 0;
+    box-shadow: none;
+    outline: 0;
+}
+
+input[type=email].input-active,
+input[type=email]:focus:after,
+input[type=text].input-active,
+input[type=text]:focus:after,
+input[type=datepicker].input-active,
+input[type=datepicker]:focus:after,
+textarea.input-active,
+textarea:focus:after,
+input[type=password].input-active,
+input[type=password]:focus:after,
+input[type=number].input-active,
+input[type=number]:focus:after {
+    position: relative;
+    z-index: 2;
+    margin-bottom: 18px;
+    width: 100%;
+    display: block;
+    border: none;
+    padding: 18px 0 12px 0;
+    border-bottom: solid 1px #eff1f3;
+    background: linear-gradient(to bottom, rgba(249, 249, 249, 0) 98%, #eff1f3 98%);
+}
+
+input[type=email]::-webkit-input-placeholder,
+input[type=text]::-webkit-input-placeholder,
+input[type=datepicker]::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder,
+input[type=password]::-webkit-input-placeholder,
+input[type=number]::-webkit-input-placeholder {
+    transition: all .2s cubic-bezier(.64, .09, .08, 1);
+}
+
+input[type=radio]:after,
+input[type=radio]:before {
+    content: '';
+    position: absolute;
+    transition: all .3s cubic-bezier(.64, .09, .08, 1)
+}
+
+input[type=checkbox] {
+    position: relative;
+    cursor: pointer;
+    top: -6px;
+    margin-right: 20px;
+}
+
+input[type=checkbox]:before {
+    content: '';
+    width: 28px;
+    height: 28px;
+    border: 2px solid #eff1f3;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    background: #fff;
+    margin-right: 10px;
+    position: absolute;
+    top: -2px;
+}
+
+input[type=checkbox]:after {
+    content: '';
+    width: 19px;
+    height: 16px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    background: url(https://goodjob369d.cc/static/images/correct.png) no-repeat;
+    opacity: 0;
+    transition: opacity .3s ease;
+}
+
+input[type=checkbox]:checked:after {
+    opacity: 1
+}
+
+input[type=radio] {
+    position: relative;
+    top: 2px;
+    left: 2px;
+    margin: 0 8px;
+    cursor: pointer
+}
+
+input[type=radio]:before {
+    background-color: #fff;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid #5F47B6;
+    display: inline-block;
+    top: -5px;
+    left: -8px;
+    background-image: radial-gradient(circle, #5F47B6 60%, #fff 70%);
+    background-size: 0;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    will-change: background-size;
+    z-index: 2
+}
+
+input[type=radio]:after {
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border-radius: 50%
+}
+
+input[type=radio]:checked:before {
+    background-size: 14px 14px
+}

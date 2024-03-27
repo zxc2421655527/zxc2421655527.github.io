@@ -1,0 +1,148 @@
+/* ------------------------------------------
+	Page Style
+    URL: http://www.bootstrapmb.com
+------------------------------------------ */
+
+
+h1 {
+    font-size: 24px;
+    line-height: 34px;
+    padding-bottom: 20px;
+    color: #20292f;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+
+
+span {
+    color: #71818c;
+    position: relative;
+    font-size: 14px;
+    font-weight: 400;
+    opacity: .6;
+}
+
+
+
+p {
+    color: #71818c;
+    position: relative;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+a {
+    color: #4843d2; !important;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+a:hover {
+    color: #f92c8b; !important;
+    text-decoration: underline;
+    font-weight: 400;
+}
+
+
+
+.round-header {
+    min-height: 90vh;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+.round-title {
+    color: #fff;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    letter-spacing: 6px;
+}
+
+.round-line {
+    margin: 0 0 20px;
+    text-align: center
+}
+
+.round-line ul {
+    font-size: 0;
+    position: relative;
+}
+
+.round-line li {
+    position: relative;
+    display: inline-block
+}
+
+.round-line a {
+    position: relative;
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 10px 10px 27px;
+    color: #fff;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    outline: none;
+}
+
+.round-line li.active-step a {
+    cursor: pointer
+}
+
+.round-line li.inactive-step a:hover,
+.round-line li.active-step a:hover {
+    color: #f9676a;
+}
+
+.round-line li.inactive-step a {
+    cursor: default
+}
+
+.round-line li:first-child:before,
+.round-line li:last-child:before {
+    width: 50%;
+}
+
+.round-line li:last-child:before {
+    right: auto;
+    left: 0;
+}
+
+.round-line li:before {
+    content: '';
+    background: #fff;
+    width: 100%;
+    right: 0;
+    bottom: 7px;
+    height: 1px;
+    position: absolute;
+    z-index: -0;
+}
+
+.round-line li a:after {
+    content: '';
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -7px;
+    background: #fff;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.round-line+.page.shopping-cart-page,
+.page.checkout-page .page-title {
+    margin: 50px 0 0
+}
